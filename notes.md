@@ -32,7 +32,7 @@ the execution context created in 2 phases:
 
 functions are a heart of javascript.
 
-<!-- ## Hoisting
+## Hoisting
 Hoisting is a phenomenon is javascript where you can access variables and functions even before you have initialized it.
 
 Even before the code is executed, memory us executed to each variable and function.
@@ -40,4 +40,4 @@ Even before the code is executed, memory us executed to each variable and functi
 
 if we make a function as arrow function, it would act as a variable and not as a function, and would store undefined instead of entire function.
 
-## Window :  -->
+## Window : 
