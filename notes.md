@@ -1,0 +1,43 @@
+Everything in Js happens inside an `execution` context. Its a big box where your code is executed and variables, functions, and objects are stored. 
+
+- 1st component is memory component where variables and functions are stored. 
+- heavy word is `Variable Environment`.
+
+Javascript is a `synchronous` `single-threaded` language. It means it can do `one thing` at a time.
+
+
+## What happens when you run Javascript Program?
+
+```
+var n=2;
+function square (num){
+    var abs = num * num;
+    return ans;
+} 
+var square2 = square(n);
+var square2 = square(4);
+```
+
+the execution context created in 2 phases:
+* Memory Creation Phase
+* Code Execution Phase
+
+
+| Memory | Code |
+| --- | --- |
+| n: undefined | |
+| square: function square (num) {---} | | 
+| square2: undefined | | 
+| square4: undefined | | 
+
+functions are a heart of javascript.
+
+## Hoisting
+Hoisting is a phenomenon is javascript where you can access variables and functions even before you have initialized it.
+
+Even before the code is executed, memory us executed to each variable and function.
+
+
+if we make a function as arrow function, it would act as a variable and not as a function, and would store undefined instead of entire function.
+
+## Window : 
