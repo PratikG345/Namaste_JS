@@ -6,7 +6,7 @@ Everything in Js happens inside an `execution` context. Its a big box where your
 Javascript is a `synchronous` `single-threaded` language. It means it can do `one thing` at a time.
 
 
-<!-- ## What happens when you run Javascript Program?
+## What happens when you run Javascript Program?
 
 ```
 var n=2;
@@ -32,7 +32,7 @@ the execution context created in 2 phases:
 
 functions are a heart of javascript.
 
-## Hoisting
+<!-- ## Hoisting
 Hoisting is a phenomenon is javascript where you can access variables and functions even before you have initialized it.
 
 Even before the code is executed, memory us executed to each variable and function.
