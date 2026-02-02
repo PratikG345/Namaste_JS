@@ -49,13 +49,16 @@ whenever we created a execution context, the `this` object is created with it, w
 this === window // true
 ```
 
-Global space : any thing we write or any variable we define which is not inside a function is in global space
+## Global space : 
+Any thing we write or any variable we define which is not inside a function is in global space
 
 
-## how to access variables in global space?
+how to access variables in global space?
 ```
 x = 10
 console.log(window.x) // 1
 console.log(x) // 2
 console.log(this.x) //3
 ```
+
+## Undefined vs Not Defined in JS
