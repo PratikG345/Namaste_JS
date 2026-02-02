@@ -6,7 +6,7 @@ Everything in Js happens inside an `execution` context. Its a big box where your
 Javascript is a `synchronous` `single-threaded` language. It means it can do `one thing` at a time.
 
 
-## What happens when you run Javascript Program?
+<!-- ## What happens when you run Javascript Program?
 
 ```
 var n=2;
@@ -40,4 +40,4 @@ Even before the code is executed, memory us executed to each variable and functi
 
 if we make a function as arrow function, it would act as a variable and not as a function, and would store undefined instead of entire function.
 
-## Window : 
+## Window :  -->
